@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Tabs Plugin Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="tabs-container" id="myTabs">
+    <ul class="tabs">
+        <li data-tab="#home" tabindex="0">Home</li>
+        <li data-tab="#about" tabindex="0">About</li>
+        <li data-tab="#contact" tabindex="0">Contact</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-panel">
+            <h2>Home</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic laudantium voluptate inventore et quos quasi atque aperiam consequuntur minima totam illum est, maiores rem, ratione quam dolore soluta deleniti odit?</p>
+        </div>
+
+        <div id="about" class="tab-panel">
+            <h2>About</h2>
+            <p>Name: Vibhishan Kumar</p>
+            <p>Reg No: 25MCMC26</p>
+            <P>Hostel: MH-L, South Campus</P>
+        </div>
+
+        <div id="contact" class="tab-panel">
+            <h2>Contact</h2>
+            <p>Email: 25MCMC26@uohyd.ac.in</p>
+            <p>Phone: 9939725551</p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $("#myTabs").simpleTabs({
+        activeClass: "active",
+        speed: 300,
+        defaultTab: "#home"
+    });
+</script>
+
+</body>
+</html>
