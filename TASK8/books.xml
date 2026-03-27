@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Artificial Intelligence: A Guide for Thinking Humans</title>
+        <author>Melanie Mitchell</author>
+        <genre>Artificial Intelligence</genre>
+        <price>550</price>
+        <date>2019-10-15</date>
+    </book>
+
+    <book>
+        <title>Deep Learning</title>
+        <author>Ian Goodfellow, Yoshua Bengio, Aaron Courville</author>
+        <genre>Machine Learning</genre>
+        <price>750</price>
+        <date>2016-11-18</date>
+    </book>
+
+    <book>
+        <title>Human Compatible: Artificial Intelligence and the Problem of Control</title>
+        <author>Stuart Russell</author>
+        <genre>Artificial Intelligence</genre>
+        <price>630</price>
+        <date>2019-10-22</date>
+    </book>
+
+    <book>
+        <title>Reinforcement Learning: An Introduction (2nd Edition)</title>
+        <author>Richard S. Sutton, Andrew G. Barto</author>
+        <genre>Machine Learning</genre>
+        <price>690</price>
+        <date>2018-11-13</date>
+    </book>
+
+    <book>
+        <title>Prediction Machines: The Simple Economics of Artificial Intelligence</title>
+        <author>Ajay Agrawal, Joshua Gans, Avi Goldfarb</author>
+        <genre>Artificial Intelligence</genre>
+        <price>520</price>
+        <date>2018-05-15</date>
+    </book>
+
+    <book>
+        <title>Machine Learning: A Probabilistic Perspective</title>
+        <author>Kevin P. Murphy</author>
+        <genre>Machine Learning</genre>
+        <price>800</price>
+        <date>2017-08-25</date>
+    </book>
+
+    <book>
+        <title>Deep Learning with Python</title>
+        <author>Francois Chollet</author>
+        <genre>Deep Learning</genre>
+        <price>590</price>
+        <date>2017-10-26</date>
+    </book>
+
+    <book>
+        <title>Grokking Deep Learning</title>
+        <author>Andrew W. Trask</author>
+        <genre>Deep Learning</genre>
+        <price>460</price>
+        <date>2019-05-01</date>
+    </book>
+
+    <book>
+        <title>Life 3.0: Being Human in the Age of Artificial Intelligence</title>
+        <author>Max Tegmark</author>
+        <genre>Artificial Intelligence</genre>
+        <price>540</price>
+        <date>2017-08-29</date>
+    </book>
+
+    <book>
+        <title>AI Superpowers: China, Silicon Valley, and the New World Order</title>
+        <author>Kaifu Lee</author>
+        <genre>Artificial Intelligence</genre>
+        <price>510</price>
+        <date>2018-09-04</date>
+    </book>
+
+</catalog>

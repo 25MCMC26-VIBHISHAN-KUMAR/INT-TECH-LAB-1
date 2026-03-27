@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.site-header {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.highlight {
+    color: #38f8f8;
+}
+
+.navbar {
+    background-color: #111888;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.main-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-section {
+    flex: 3;
+}
+
+.post, #disqus_thread {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.post h2 {
+    color:#1f1f1f;
+}
+
+.date {
+    font-size: 14px;
+    color: gray;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.profile-box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .navbar a{
+        display: block;
+        margin: 8px;
+    }
+}

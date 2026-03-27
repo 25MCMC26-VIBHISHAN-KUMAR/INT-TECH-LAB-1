@@ -1,0 +1,64 @@
+.header-area {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-area {
+    background-color: yellow;
+    text-align: left;
+    padding: 10px;
+}
+
+.main-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 3;
+    background-color: #aaaaaa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #cccccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: 22%;
+    background-color: white;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-area {
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 750px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .products {
+        justify-content: center;
+    }
+}

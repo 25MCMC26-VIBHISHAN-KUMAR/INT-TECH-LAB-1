@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopOnline</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header-area" id="Home">
+    <h1>ShopOnline</h1>
+    <p style="color:yellow;">Browse Products > Add products into cart > Make Payment > Products will deliver to your address</p>
+</header>
+
+<nav class="nav-area">
+    <a href="#Home">Home</a>
+    <a href="#Products">Products</a>
+    <a href="#Offers">Offers</a>
+    <a href="#Cart">Cart</a>
+    <a href="#Contact">Contact</a>
+</nav>
+
+<main class="main-layout">
+    <section class="main-content">
+        <article>
+            <h2>Available Products</h2>
+
+            <div class="products" id="Products">
+
+                <div class="product-card">
+                    <h5>Smart Watch</h5>
+                    <p>RS: 2,999</p>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+
+                <div class="product-card">
+                    <h5>Kettle</h5>
+                    <p>RS: 1,499</p>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+
+                <div class="product-card">
+                    <h5>Let Us C</h5>
+                    <p>RS: 399</p>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+
+                <div class="product-card">
+                    <h5>UOH Jacket</h5>
+                    <p>RS: 599</p>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <aside class="sidebar">
+        <h4 id="Cart">My Cart</h4>
+        <h4>Categories</h4>
+        <ul>
+            <li>Electronics</li>
+            <li>Fashion</li>
+            <li>Home Appliances</li>
+            <li>Books</li>
+        </ul>
+
+        <h4 id="Offers">Republic Day Offer</h4>
+        <p>Flat 10% on order above RS: 2,000</p>
+    </aside>
+</main>
+
+<footer class="footer-area" id ="Contact">
+    <p>2026 ShopOnline Pvt Ltd. All rights reserved.</p>
+    <p>500046, Gachibowli, Hyderabad, Telangana, India</p>
+    <p>Phone: 9939725551 | Email: shoponline@ac.in</p>
+</footer>
+
+</body>
+</html>
