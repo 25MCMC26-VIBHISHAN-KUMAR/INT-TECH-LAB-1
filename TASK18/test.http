@@ -1,0 +1,53 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "1234"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "1234"
+}
+
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzc3MTIwMjIwfQ.gUl6r64afNIof-KCh7cna7pom1Wjsx2VLFOr_lpNFD8
+
+{
+  "name": "Laptop",
+  "description": "Gaming laptop",
+  "price": 80000,
+  "category": "Electronics"
+}
+
+###
+GET http://localhost:3000/products
+
+###
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzc3MTIwMjIwfQ.gUl6r64afNIof-KCh7cna7pom1Wjsx2VLFOr_lpNFD8
+
+{
+  "name": "Laptop",
+  "description": "Updated laptop",
+  "price": 90000,
+  "category": "Electronics"
+}
+
+###
+GET http://localhost:3000/products
+
+###
+DELETE http://localhost:3000/products/1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzc3MTIwMjIwfQ.gUl6r64afNIof-KCh7cna7pom1Wjsx2VLFOr_lpNFD8
+
+###
+GET http://localhost:3000/products
